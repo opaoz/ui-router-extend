@@ -1,0 +1,23 @@
+{
+  "name": "ui-router-extend",
+  "version": "0.0.1",
+  "authors": [
+    "Vladimir Levin <Vladimir_Levin@epam.com>"
+  ],
+  "description": "Extend ui-router for working as accodion",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "~1.4.7",
+    "angular-ui-router": "~0.2.15"
+  }
+}

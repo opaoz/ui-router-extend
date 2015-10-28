@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="ui-router-extend">
+<head>
+    <meta charset="UTF-8">
+    <title>Accordion</title>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<div class="links">
+    <a ui-sref="First">First</a>
+    <a ui-sref="Second">Second</a>
+    <a ui-sref="Third">Third</a>
+    <a ui-sref="Four">Four</a>
+    <a ui-sref="Fifth">Fifth</a>
+
+    <a ui-sref="First-Third-Fifth">First-Third-Fifth</a>
+    <a ui-sref="Second-Four">Second-Four</a>
+</div>
+<div class="column column-1" accordion="first"></div>
+<div class="column column-2" accordion="second"></div>
+<div class="column column-3" accordion="third"></div>
+<div class="column column-4" accordion="four"></div>
+<div class="column column-5" accordion="fifth"></div>
+
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+
+<script src="app.js"></script>
+<script src="js/controllers/controllers.js"></script>
+<script src="js/constants/routes.js"></script>
+<script src="js/directives/accordion.js"></script>
+</body>
+</html>
